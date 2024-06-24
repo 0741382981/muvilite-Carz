@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Muvilite carz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+                <img src="muvilite_icon.png" alt="Company Icon" class="icon">
+                <h1 class="company-title">Muvilite carz</h1>
+                <nav class="navigation">
+                    <a href="#">OUR CARS</a>
+                    <a href="#">CAR RENTALS</a>
+                    <a href="#">CAR IMPORTS</a>
+                    <a href="#">SECOND HAND</a>
+                    <a href="Story.html">PROFFESIONAL SERVICES</a>
+                </nav>
+                <div class="auth-links">
+                    <a href="#" class="sign-up">Sign Up</a>
+                    <div id="signup-form-container" class="form-container">
+                        <div class="form-content">
+                            <span class="close-btn">&times;</span>
+                            <h2>Sign Up</h2>
+                            <form id="signup-form">
+                                <label for="first-name">First Name:</label>
+                                <input type="text" id="first-name" name="first-name"class="input-style1" required>
+                
+                                <label for="last-name">Last Name:</label>
+                                <input type="text" id="last-name" name="last-name"class="input-style1" required>
+                
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email"required>
+                
+                                <label for="phone-number">Phone Number:</label>
+                                <input type="tel" id="phone-number" name="phone-number" required>
+                
+                                <label for="country">Country:</label>
+                                <input type="text" id="country" name="country"class="input-style1" required>
+                
+                                <label class="privacy-policy">
+                                    <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
+                                    I have read and agree to the <a href="#">privacy policy</a>.
+                                </label>
+                
+                                <button  class="submit-btn" type="submit">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                    <span class="divider"></span>
+                    <a href="Story.html" class="login">Muvilite Login</a>
+                </div>
+            </div>
+        </header>
+        <section class="button-section">
+            <button class="btn primary-btn">SALE</button>
+            <button class="btn secondary-btn">HIRE</button>
+        </section>
+        <section class="container">
+            <section class="box-section">
+                <div class="dropdown-box">
+                    <select id="sale" name="sale">
+                        <option value="option1">IN STOCK</option>
+                        <option value="option2">COMING SOON</option>
+                        <option value="option3">FOR GRABS</option>
+                    </select>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="input-style2" placeholder="Search...">
+                    <span class="search-icon">🔍</span>
+                </div>
+            </section>
+        
+            <section class="image-container">
+                <img src="cars.jpg" alt="Main Image" class="main-image">
+                <img src="Featured-cars.jpeg" alt="Bottom Left Image" class="bottom-left-image">
+                <p class="image-text">
+                    <span class="image-text-title">AFFORDABLE QUALITY SUV'S</span>
+                    <span class="image-text-description">Economical SUVs delivering high-quality performance and comfort.</span>
+                    <a href="#">View Details</a>
+                </p>
+            </section>
+        </section>
+        <section class="section">
+            <div class="horizontal-box">
+              <div class="scrolling-list">
+                <div class="scrolling-item">
+                  <img src="muvilite_icon.png" alt="Icon"style="width: 20px; height: 20px;">
+                  <span>Chevrolet Equinox</span>
+                  <span>2024</span>
+                  <span>$500,000</span>
+                </div>
+                <div class="scrolling-item">
+                  <img src="muvilite_icon.png" alt="Icon"style="width: 20px; height: 20px;">
+                  <span>Subaru Forester</span>
+                  <span>2020</span>
+                  <span>$400,000</span>
+                </div>
+                <div class="scrolling-item">
+                  <img src="muvilite_icon.png" alt="Icon"style="width: 20px; height: 20px;">
+                  <span>Hyundai Tucson</span>
+                  <span>2023</span>
+                  <span>$300,000</span>
+                </div>
+                <div class="scrolling-item">
+                  <img src="muvilite_icon.png" alt="Icon"style="width: 20px; height: 20px;">
+                  <span>Honda CR-V</span>
+                  <span>2017</span>
+                  <span>$600,000</span>
+                </div>
+                <div class="scrolling-item">
+                    <img src="muvilite_icon.png" alt="Icon" style="width: 20px; height: 20px;"> <!-- Adjust icon size here -->
+                    <span>Ford Escape</span>
+                    <span>2023</span>
+                    <span>$450,000</span>
+                  </div>
+                  <div class="scrolling-item">
+                    <img src="muvilite_icon.png" alt="Icon" style="width: 20px; height: 20px;"> <!-- Adjust icon size here -->
+                    <span>Mazda CX-5</span>
+                    <span>2021</span>
+                    <span>$550,000</span>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="compass-box">
+              <div class="compass-icon"></div>
+            </div>
+          </section>
+          
+        <div class="featured-properties">
+            <h2 class="heading">Featured Properties</h2>
+            <div class="carousel" id="carousel">
+                <!-- Property Card 1 -->
+                <div class="property-card">
+                    <div class="card-content">
+                        <img src="Mercedez.jpg" alt="Property Image">
+                        <h2>Mercedes-Benz</h2>
+                        <p>2022 GLE| 4 seats</p>
+                        <p class="price"> $47,000 <img src="muvilite_icon.png" alt="Icon" class="icon"></p>
+                    </div>
+                </div>
+                <!-- Property Card 2 -->
+                <div class="property-card">
+                    <div class="card-content">
+                        <img src="honda-cr-v.webp" alt="Property Image">
+                        <h2>Honda CR-V</h2>
+                        <p>2022 EX AWD | 5 seats</p>
+                        <p class="price">$32,010 <img src="muvilite_icon.png" alt="Icon" class="icon"></p>
+                    </div>
+                </div>
+                <!-- Property Card 3 -->
+                <div class="property-card">
+                    <div class="card-content">
+                        <img src="2024-rolls-royce-spectre.jpg" alt="Property Image">
+                        <h2>Rolls-Royce Spectre</h2>
+                        <p>2024 | 4 seat</p>
+                        <p class="price">$422,750 <img src="muvilite_icon.png" alt="Icon" class="icon"></p>
+                    </div>
+                </div>
+                <!-- Property Card 4 -->
+                <div class="property-card">
+                    <div class="card-content">
+                        <img src="kia_sorento.jpg" alt="Property Image">
+                        <h2>Kia SOrento</h2>
+                        <p>X-Pro.| 4 seat</p>
+                        <p class="price">$31,990 <img src="muvilite_icon.png" alt="Icon" class="icon"></p>
+                    </div>
+                </div>
+                <!-- Property Card 5 -->
+                <div class="property-card">
+                    <div class="card-content">
+                        <img src="mercedes-AMG-634-G.jpg" alt="Property Image">
+                        <h2>mercedes-benz's g-wagon</h2>
+                        <p>AMG-634-G| 4 seats</p>
+                        <p class="price">$183,000<img src="muvilite_icon.png" alt="Icon" class="icon"></p>
+                    </div>
+                </div>
+                <!-- Property Card 6 -->
+                <div class="property-card">
+                    <div class="card-content">
+                        <img src="Toyota Rav 4.jpeg" alt="Property Image">
+                        <h2>TOYOTA RAV4</h2>
+                        <p>TNGA: GA-K[| 5 seat</p>
+                        <p class="price">$48,910 <img src="muvilite_icon.png" alt="Icon" class="icon"></p>
+                    </div>
+                </div>
+                <!-- Property Card 7 -->
+                <div class="property-card">
+                    <div class="card-content">
+                        <img src="Audi Q5.jpeg" alt="Property Image">
+                        <h2>Audi Q5</h2>
+                        <p>2024 45 TFSI | 5 seat</p>
+                        <p class="price">$45,300.00<img src="muvilite_icon.png" alt="Icon" class="icon"></p>
+                    </div>
+                </div>            
+            </div>
+        </div>
+        <section class="banner-section">
+            </div>
+            <img src="kia_sorento.jpg" alt="Banner Image 1" class="banner-img active">
+            <img src="2024-rolls-royce-spectre.jpg" alt="Banner Image 2" class="banner-img">
+            <img src="mercedes-AMG-634-G.jpg" alt="Banner Image 3" class="banner-img">
+            <div class="discount-tag">50% Discount</div>
+            <a href="#" class="shop-now">Shop Now</a>
+            <div class="floating-text">Quality SUV's for ready clients</div>
+        </section>
+        <section class="real-estate-section">
+            <div class="real-estate-news-container">
+            <div class="real-estate-news">
+                <h2 class="heading">REAL ESTATE NEWS |  BLOG</h2>
+                <div class="news-item">
+                    <img src="Feature.jpg" alt="News Image">
+                    <div class="news-content">
+                        <h3 class="news-title">Buying a Car: What to Consider</h3>
+                        <p class="news-date">June 19, 2024</p>
+                        <p class="news-description">Consider budget, needs, fuel efficiency, reliability,<br> resale value, safety features, maintenance, and insurance costs.</p>
+                        <a href="https://www.progressive.com/answers/buying-used-car/" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vertical-links">
+                <a href="https://example.com/market-trends" target="_blank">Current Car Business Market Trends</a>
+                <a href="https://example.com/housing-affordability" target="_blank">Understanding Car Rental Affordability Issues</a>
+                <a href="https://example.com/mortgage-rates" target="_blank">Current Hire Interest Rates</a>
+                <a href="https://example.com/real-estate-investment" target="_blank">Successful Car sales Investment</a>
+                <a href="https://example.com/commercial-real-estate" target="_blank">Opportunities in SUV acquisition</a>
+                <a href="https://example.com/sustainable-housing" target="_blank">Sustainable Transport Solutions</a>
+            </div>
+            </div>
+            <div class="alert-boxes">
+                <div class="alert-box">
+                    <p><i style="font-size:24px" class="fa">&#xf006;</i>&nbsp; Email Alert</p>
+                    <input type="submit" value="Subscribe">
+                </div>
+                <div class="alert-box">
+                    <p><i style="font-size:24px" class="fa">&#xf006;</i>&nbsp;Price sturdy</p>
+                </div>
+            </div>
+        </section>
+        <section class="above-footer">
+            <div class="box">
+            <a href="https://example.com/market-trends"><i style="font-size:24px" class="fa">&#xf006;</i> &nbsp; Market Trends</a>
+            </div>
+            <div class="box">
+                <a href="https://example.com/market-trends"><i style="font-size:24px" class="fa">&#xf006;</i> &nbsp; Market Trends</a>
+            </div>
+            <div class="box">
+                <a href="https://example.com/market-trends"><i style="font-size:24px" class="fa">&#xf006;</i> &nbsp; Market Trends</a>
+            </div>
+            <div class="box">
+                <a href="https://example.com/market-trends"><i style="font-size:24px" class="fa">&#xf006;</i> &nbsp; Market Trends</a>
+            </div>
+        </section>
+            <footer class="site-footer">
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h3>About Us</h3>
+                        <ul class="related-links">
+                            <li><a href="Story.html">Our Mission</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="Story.html">Our History</a></li>
+                            <li><a href="tel:+254741382981">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul class="related-links">
+                            <li><a href="#">Car Sales</a></li>
+                            <li><a href="#">Car Repairs</a></li>
+                            <li><a href="#">Car Hire</a></li>
+                            <li><a href="#">Car Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Features</h3>
+                        <ul class="related-links">
+                            <li><a href="#featured-properties">Car Imports</a></li>
+                            <li><a href="#">Second Hands</a></li>
+                            <li><a href="#">Car Rentals</a></li>
+                            <li><a href="#">Car Spares</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Useful Links</h3>
+                        <ul class="related-links">
+                            <li><a href="#featured-properties">Featured Sales</a></li>
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">For Grabs</a></li>
+                            <li><a href="#">Hot Deals</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Popular Searches</h3>
+                        <div class="search-table">
+                            <table>
+                                <tr>
+                                    <td><input type="text" placeholder="Best car investments"></td>
+                                    <td><input type="text" placeholder="Top  Car rental properties"></td>
+                                    <td><input type="text" placeholder="Luxury Cars for sale"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" placeholder="Affordable SUV'S options"></td>
+                                    <td><input type="text" placeholder="Suvs Cars market trends"></td>
+                                    <td><input type="text" placeholder="Commercial vehicle investments"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" placeholder="Vacation cars for rent"></td>
+                                    <td><input type="text" placeholder="Best Suv's to invest in"></td>
+                                    <td><input type="text" placeholder="Car financing options"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+                <div class="footer-note">
+                    <p><img src="muvilite_icon.png" alt="Advertisement Icon"style="width: 40px; height: 40px;"> Muvilite Carz&nbsp;<a href="#">Advertisement</a> | 
+                        <a href="#">Disclaimer</a> | 
+                        <a href="#">Privacy Policy</a> &nbsp;Find us on:
+                           <a href="#">Facebook</a> .
+                           <a href="#">Twitter</a> . 
+                           <a href="#">Google</a> . 
+                           <a href="#">Plix</a> . 
+                           <a href="#">YouTube</a>
+                           &nbsp;&nbsp; Copyright © caza.ae Trade Media Systems Fz-LLC 2024. All rights reserved.</p>
+                </div>
+        <script src="sign-up.js"></script>    
+        <script src="banner.js"></script>
+        <script src="scrollbox.js"></script>
+        <script src="carousel.js"></script>
+       </body>
